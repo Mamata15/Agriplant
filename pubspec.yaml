@@ -1,0 +1,40 @@
+name: agriplant
+description: Agriculture plant app
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_iconly: ^1.0.2
+  google_fonts: ^5.1.0
+  badges: ^3.1.1
+  timelines: ^0.1.0
+  easy_stepper: ^0.7.3
+  url_launcher: ^6.0.9
+  font_awesome_flutter: ^10.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/services/
+    - assets/services/profile.jpg
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/agrilogo.png"
+
+  dependencies:
+  shared_preferences: ^2.0.15
+
